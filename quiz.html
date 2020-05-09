@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+
+    <!-- include style -->
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="quiz">
+
+            <div class="quiz_header">
+
+                <div class="quiz_user">
+                    <h4>Welcome! <span class="name"></span></h4>
+                </div>
+                <div class="quiz_time">
+                    <span class="time">00:00</span>
+                </div>
+                
+            </div>
+                
+            <div class="quiz_body">
+
+                
+                <div id="questions">
+                    <!--
+                    <h2>Q1. cual es tu forma completa de ram?</h2>
+    
+                    <ul class="option_group">
+                        <li class="option">option1</li>
+                        <li class="option">option2</li>
+                        <li class="option">option3</li>
+                        <li class="option">option4</li>
+                    </ul>
+                -->
+                </div> 
+
+
+                <button class="btn-next" onclick="next()">Next Question</button>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- quiz.js -->
+    <script src="dist/js/quiz.js"></script>
+    <!-- userInfo.js -->
+    <!--es mejor que no este aqui <script src="dist/js/userInfo.js"></script> -->
+    <script src="dist/js/time.js"></script>
+</body>
+</html>
